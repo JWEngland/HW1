@@ -116,7 +116,7 @@ CREATE TABLE Movies (
 );
 
 CREATE TABLE TopCast (
-    filmID TEXT,
+    filmname TEXT,
     actorname integer, 
     charactername TEXT 
 );
