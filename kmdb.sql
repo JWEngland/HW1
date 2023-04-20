@@ -109,7 +109,6 @@ DROP TABLE IF EXISTS Movies;
 
 -- Create new tables, according to your domain model
 CREATE TABLE Movies (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
     filmname TEXT,
     releaseyear integer, 
     rating TEXT, 
@@ -117,7 +116,6 @@ CREATE TABLE Movies (
 );
 
 CREATE TABLE TopCast (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
     filmname TEXT,
     actorname integer, 
     charactername TEXT 
@@ -125,12 +123,20 @@ CREATE TABLE TopCast (
 
 -- Insert data into your database that reflects the sample data shown above
 -- Use hard-coded foreign key IDs when necessary
--- TODO!
+INSERT INTO Movies 
+VALUES ("Batman Begins", 2005, "PG-13", "Warner Bros."),
+       ("The Dark Knight", 2008, "PG-13", "Warner Bros.");
 
+
+
+
+-- Batman Begins          2005           PG-13  Warner Bros.
+-- The Dark Knight        2008           PG-13  Warner Bros.
+-- The Dark Knight Rises  2012           PG-13  Warner Bros.
 -- Prints a header for the movies output
 .print "Movies"
 .print "======"
-.print ""
+SELECT * from Movies;
 
 -- The SQL statement for the movies output
 -- TODO!
