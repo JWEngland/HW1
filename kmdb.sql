@@ -125,7 +125,8 @@ CREATE TABLE TopCast (
 -- Use hard-coded foreign key IDs when necessary
 INSERT INTO Movies 
 VALUES ("Batman Begins", 2005, "PG-13", "Warner Bros."),
-       ("The Dark Knight", 2008, "PG-13", "Warner Bros.");
+       ("The Dark Knight", 2008, "PG-13", "Warner Bros."),
+       ("The Dark Knight Rises", 2012, "PG-13", "Warner Bros.");
 
 
 
