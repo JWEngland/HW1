@@ -116,6 +116,13 @@ CREATE TABLE Movies (
     studio TEXT
 );
 
+CREATE TABLE TopCast (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    filmname TEXT,
+    actorname integer, 
+    charactername TEXT, 
+);
+
 -- Insert data into your database that reflects the sample data shown above
 -- Use hard-coded foreign key IDs when necessary
 -- TODO!
