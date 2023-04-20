@@ -128,7 +128,7 @@ VALUES ("Batman Begins", 2005, "PG-13", "Warner Bros."),
 
 .print ""
 .print "Movies"
-.print "======"
+.print "==========================================================="
 SELECT * from Movies;
 
 INSERT INTO TopCast 
@@ -152,6 +152,6 @@ VALUES
 -- Prints a header for the cast output
 .print ""
 .print "Top Cast"
-.print "========"
+.print "==========================================================="
 SELECT * from TopCast;
 .print ""
