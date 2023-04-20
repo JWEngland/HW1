@@ -116,31 +116,20 @@ CREATE TABLE Movies (
 );
 
 CREATE TABLE TopCast (
-    filmname TEXT,
+    filmID TEXT,
     actorname integer, 
     charactername TEXT 
 );
 
--- Insert data into your database that reflects the sample data shown above
--- Use hard-coded foreign key IDs when necessary
 INSERT INTO Movies 
 VALUES ("Batman Begins", 2005, "PG-13", "Warner Bros."),
        ("The Dark Knight", 2008, "PG-13", "Warner Bros."),
        ("The Dark Knight Rises", 2012, "PG-13", "Warner Bros.");
 
-
-
-
--- Batman Begins          2005           PG-13  Warner Bros.
--- The Dark Knight        2008           PG-13  Warner Bros.
--- The Dark Knight Rises  2012           PG-13  Warner Bros.
--- Prints a header for the movies output
+.print ""
 .print "Movies"
 .print "======"
 SELECT * from Movies;
-
--- The SQL statement for the movies output
--- TODO!
 
 -- Prints a header for the cast output
 .print ""
