@@ -120,7 +120,7 @@ CREATE TABLE TopCast (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     filmname TEXT,
     actorname integer, 
-    charactername TEXT, 
+    charactername TEXT 
 );
 
 -- Insert data into your database that reflects the sample data shown above
